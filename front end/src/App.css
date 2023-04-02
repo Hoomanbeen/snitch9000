@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+.image-id {
+  min-width: 90vw;
+  max-width: 95vw;
+  max-height: 90vh;
+}
+.logoid{
+  max-width: 25vw;
+  max-height: 25vh;
+}
+.img{
+  max-height:200px;
+  max-width:200px;
+  height:auto;
+  width:auto;
+}
+.navbar{
+  background-color: #93A2D8;
+}
+.home{
+  background-color: #E2F6FA;
+  width: 100vw;
+  min-height: 100vh;
+}
+.tool{
+  background-color: #B7E0EA;
+}
+.about{
+  background-color:#87C3D1;
+}
+.btn-primary{
+  color:#1c5d6c;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.question-list{
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.question-list tbody tr, .question-list thead {
+    border: 1px solid #ccc;
+}
+.question-list thead th{
+    text-align: center;
+    position: sticky;
+    top:0;
+    background: #eee;
+}
+.question-list th, .question-list td{
+    padding: 8px 10px;
+}
+#hit-list {
+    position:relative;
+    left:180px;
+}
+
+.user-form {
+    background-color: #E2F6FA;
+    padding-top:200px;
+    width: 100vw;
+    min-height: 100vh;
+    padding-left: 20px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
